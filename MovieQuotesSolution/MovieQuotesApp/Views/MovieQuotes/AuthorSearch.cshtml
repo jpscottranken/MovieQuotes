@@ -1,0 +1,23 @@
+﻿<h4>Enter A Movie Quote Author</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AuthorSearchResults">
+            <div class="form-group">
+                <label for="searchTerm" 
+                       class="control-label">Quote Author</label>
+                <input type="text" 
+                       name="searchTerm" 
+                       id="searchTerm" 
+                       class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
